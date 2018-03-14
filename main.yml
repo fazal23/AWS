@@ -1,0 +1,9 @@
+---
+- name: playbooks
+  hosts: local
+  connection: local
+  gather_facts: False
+  tags: provisioning
+  roles:
+    - aws-ec2
+#    - httpd_ssl
